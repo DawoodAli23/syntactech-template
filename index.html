@@ -28,6 +28,28 @@
 
   <link rel="stylesheet" href="style.css" />
 </head>
+<style>
+  .slider {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.slider .slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 1.5s ease-in-out;
+}
+
+.slider .slide.active {
+  opacity: 1;
+}
+</style>
 
 <body>
 
@@ -152,10 +174,15 @@
           </div>
         </div>
         <div class="col-lg-6 col-md-12 col-12">
-          <div class="header-image">
-            <img src="assets/images/header/hero-image.jpg" alt="#" />
+          <div class="header-image slider" style="height: 500px; width: 636px;">
+            <img src="assets/images/Projects/infergram.png" alt="Slide 1" class="slide" />
+            <img src="assets/images/Projects/hotplace.png" alt="Slide 2" class="slide" />
+            <img src="assets/images/Projects/levvy.png" alt="Slide 3" class="slide" />
+            <img src="assets/images/Projects/pixelsports.png" alt="Slide 4" class="slide" />
+            <img src="assets/images/Projects/testfuse.png" alt="Slide 5" class="slide" />
           </div>
         </div>
+        
       </div>
     </div>
   </section>
@@ -571,12 +598,12 @@
         <div class="row">
           <div class="col-12">
             <div class="content">
-              <h6>latest news</h6>
-              <h2 class="fw-bold">Latest News & Blog</h2>
-              <p>
+              <!-- <h6>latest news</h6> -->
+              <h2 class="fw-bold">Projects</h2>
+              <!-- <p>
                 There are many variations of passages of Lorem Ipsum available,
                 but the majority have suffered alteration in some form.
-              </p>
+              </p> -->
             </div>
           </div>
         </div>
@@ -591,20 +618,19 @@
           <!-- Single News -->
           <div class="single-news">
             <div class="image">
-              <a href="javascript:void(0)"><img class="thumb" src="assets/images/blog/1.jpg" alt="Blog" /></a>
-              <div class="meta-details">
+              <a href="javascript:void(0)"><img class="thumb" style="height: 249.64px; width: 416px;" src="assets/images/Projects/testfuse.png" alt="Blog" /></a>
+              <!-- <div class="meta-details">
                 <img class="thumb" src="assets/images/blog/b6.jpg" alt="Author" />
                 <span>BY TIM NORTON</span>
-              </div>
+              </div> -->
             </div>
             <div class="content-body">
               <h4 class="title">
-                <a href="javascript:void(0)"> Make your team a Design driven company </a>
+                <a href="javascript:void(0)"> Testfuse </a>
               </h4>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and
-                typesetting industry. Lorem Ipsum has been the industry's
-                standard.
+                Leverage the power of AI-driven personality insights and skill-based assessments to find the perfect candidate for the job. Testfuse enables you to hire candidates that are not just skilled but a perfect organisational fit
+
               </p>
             </div>
           </div>
@@ -614,22 +640,20 @@
           <!-- Single News -->
           <div class="single-news">
             <div class="image">
-              <a href="javascript:void(0)"><img class="thumb" src="assets/images/blog/2.jpg" alt="Blog" /></a>
-              <div class="meta-details">
+              <a href="javascript:void(0)"><img class="thumb" style="height: 249.64px; width: 416px;" src="assets/images/Projects/hotplace.png" alt="Blog" /></a>
+              <!-- <div class="meta-details">
                 <img class="thumb" src="assets/images/blog/b6.jpg" alt="Author" />
                 <span>BY TIM NORTON</span>
-              </div>
+              </div> -->
             </div>
             <div class="content-body">
               <h4 class="title">
                 <a href="javascript:void(0)">
-                  The newest web framework that changed the world
+                  Hop Place
                 </a>
               </h4>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and
-                typesetting industry. Lorem Ipsum has been the industry's
-                standard.
+                Hop Place is a tourism website which allows users to book a place with interesting amenities to stay in during their tour.
               </p>
             </div>
           </div>
@@ -639,22 +663,89 @@
           <!-- Single News -->
           <div class="single-news">
             <div class="image">
-              <a href="javascript:void(0)"><img class="thumb" src="assets/images/blog/3.jpg" alt="Blog" /></a>
-              <div class="meta-details">
+              <a href="javascript:void(0)"><img class="thumb" src="assets/images/Projects/levvy.png" alt="Blog" /></a>
+              <!-- <div class="meta-details">
                 <img class="thumb" src="assets/images/blog/b6.jpg" alt="Author" />
                 <span>BY TIM NORTON</span>
-              </div>
+              </div> -->
             </div>
             <div class="content-body">
               <h4 class="title">
                 <a href="javascript:void(0)">
-                  5 ways to improve user retention for your startup
+                  Levvy
                 </a>
               </h4>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and
-                typesetting industry. Lorem Ipsum has been the industry's
-                standard.
+                Levvy is a work management software for Professional Services. Levvy is a next generation work management platform built to support outsourced teams of any size across accounting and business services.
+              </p>
+            </div>
+          </div>
+          <!-- End Single News -->
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <!-- Single News -->
+          <div class="single-news">
+            <div class="image">
+              <a href="javascript:void(0)"><img class="thumb" src="assets/images/Projects/stamatisbeb.png" alt="Blog" /></a>
+              <!-- <div class="meta-details">
+                <img class="thumb" src="assets/images/blog/b6.jpg" alt="Author" />
+                <span>BY TIM NORTON</span>
+              </div> -->
+            </div>
+            <div class="content-body">
+              <h4 class="title">
+                <a href="javascript:void(0)">
+                  Stamatisbebe
+                </a>
+              </h4>
+              <p>
+                Stamatisbebe is an ecommerce site for baby products. Customers can buy all the products they need for their kids online. It features complete online e-commerce experience including online payments.
+              </p>
+            </div>
+          </div>
+          <!-- End Single News -->
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <!-- Single News -->
+          <div class="single-news">
+            <div class="image">
+              <a href="javascript:void(0)"><img class="thumb" style="height: 249.64px; width: 416px;" src="assets/images/Projects/pixelsports.png" alt="Blog" /></a>
+              <!-- <div class="meta-details">
+                <img class="thumb" src="assets/images/blog/b6.jpg" alt="Author" />
+                <span>BY TIM NORTON</span>
+              </div> -->
+            </div>
+            <div class="content-body">
+              <h4 class="title">
+                <a href="javascript:void(0)">
+                  Pixel Sports
+                </a>
+              </h4>
+              <p>
+                Sport Streaming site with live chat and theater Mode.
+              </p>
+            </div>
+          </div>
+          <!-- End Single News -->
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <!-- Single News -->
+          <div class="single-news">
+            <div class="image">
+              <a href="javascript:void(0)"><img class="thumb" style="height: 249.64px; width: 416px;" src="assets/images/Projects/infergram.png" alt="Blog" /></a>
+              <!-- <div class="meta-details">
+                <img class="thumb" src="assets/images/blog/b6.jpg" alt="Author" />
+                <span>BY TIM NORTON</span>
+              </div> -->
+            </div>
+            <div class="content-body">
+              <h4 class="title">
+                <a href="javascript:void(0)">
+                 Infergram
+                </a>
+              </h4>
+              <p>
+                Infergram is an innovative AI-powered application designed to extract valuable insights from Zoom video recordings. By analyzing various aspects of the video content, Infergram generates a comprehensive dashboard.
               </p>
             </div>
           </div>
@@ -715,6 +806,8 @@
     </div>
   </div>
   <!-- End Brand Area -->
+
+  
 
   <!-- ========================= contact-section start ========================= -->
   <section id="contact" class="contact-section">
@@ -913,6 +1006,7 @@
     <i class="lni lni-chevron-up"></i>
   </a>
 
+
   <!--====== js ======-->
   <script src="assets/js/bootstrap.bundle.min.js"></script>
   <script src="assets/js/glightbox.min.js"></script>
@@ -928,6 +1022,34 @@
     navbarTogglerNine.addEventListener("click", function () {
       navbarTogglerNine.classList.toggle("active");
     });
+
+    // slider
+
+    document.addEventListener("DOMContentLoaded", () => {
+  const slides = document.querySelectorAll(".slider .slide");
+  let currentIndex = 0;
+
+  function showSlide(index) {
+    slides.forEach((slide, i) => {
+      slide.classList.remove("active");
+      if (i === index) {
+        slide.classList.add("active");
+      }
+    });
+  }
+
+  function startSlider() {
+    setInterval(() => {
+      currentIndex = (currentIndex + 1) % slides.length;
+      showSlide(currentIndex);
+    }, 3000); // 3 seconds interval
+  }
+
+  // Initialize slider
+  showSlide(currentIndex);
+  startSlider();
+});
+
 
     // ==== left sidebar toggle
     let sidebarLeft = document.querySelector(".sidebar-left");
