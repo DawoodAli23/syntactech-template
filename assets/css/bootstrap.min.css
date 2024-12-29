@@ -89,6 +89,9 @@ h6 {
 h1 {
   font-size: calc(1.375rem + 1.5vw);
 }
+.navbar-btn {
+  display: none;
+}
 @media (min-width: 1200px) {
   .h1,
   h1 {
@@ -2367,7 +2370,9 @@ textarea.form-control-lg {
   border-bottom-right-radius: 0;
 }
 .input-group
-  > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+  > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(
+    .valid-feedback
+  ):not(.invalid-tooltip):not(.invalid-feedback) {
   margin-left: -1px;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
